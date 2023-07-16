@@ -22,8 +22,8 @@ def hello_world():
     return "<p>Hello!</p>"
 
 
-@app.route("/uyegiris")
-def uyegiris():
+@app.route("/user_login")
+def user_login():
     TC = request.args.get('TC')
     Sifre = request.args.get('Sifre')
 
